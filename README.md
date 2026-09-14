@@ -1,10 +1,30 @@
-# Linux-backup-script
+# linux-backup-script
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-121011?style=flat&logo=gnu-bash&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-0A66C2?style=flat)
+![Cron](https://img.shields.io/badge/Cron-2C3E50?style=flat)
+![tar/gzip](https://img.shields.io/badge/tar%2Fgzip-CC3534?style=flat)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)
 
 A Bash script that automatically finds and archives files modified within
 the last 24 hours, then moves the compressed backup to a chosen destination
 directory. Built as a hands-on project for learning core Linux shell
 scripting concepts: argument handling, path resolution, timestamp math,
 arrays, loops, and `tar` archiving.
+
+## Repository structure
+
+```
+linux-backup-script/
+├── backup.sh              # the executable backup script
+├── README.md               # you are here
+├── LICENSE                 # MIT license
+├── .gitignore               # ignores generated backup archives and test data
+└── docs/
+    └── walkthrough.md      # task-by-task explanation of how the script was built
+```
 
 ## What it does
 
@@ -48,7 +68,7 @@ Backup complete: /home/user/backups/backup-1734000000.tar.gz
 Clone the repo and make the script executable:
 
 ```bash
-git clone https://github.com/SaBuMa/Linux-backup-script.git
+git clone https://github.com/<your-username>/linux-backup-script.git
 cd linux-backup-script
 chmod +x backup.sh
 ```
