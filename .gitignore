@@ -1,0 +1,9 @@
+# Backup artifacts produced by running the script
+backup-*.tar.gz
+
+# Test/scratch directories
+important-documents/
+important-documents.zip
+
+# OS cruft
+.DS_Store
