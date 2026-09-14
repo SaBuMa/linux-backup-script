@@ -68,7 +68,7 @@ Backup complete: /home/user/backups/backup-1734000000.tar.gz
 Clone the repo and make the script executable:
 
 ```bash
-git clone https://github.com/<your-username>/linux-backup-script.git
+git clone https://github.com/SaBuMa/linux-backup-script.git
 cd linux-backup-script
 chmod +x backup.sh
 ```
